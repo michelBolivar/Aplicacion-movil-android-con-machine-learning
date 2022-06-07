@@ -24,15 +24,18 @@ APK folder where the apk of the final application can be found
 * Diseño de la aplicación:
 * Design of the application:
 
-- Modulo de Cliente 
--  Customer Module
+ Modulo de Cliente 
 
 [![look-app-kenai-1.png](https://i.postimg.cc/dts1JnJG/look-app-kenai-1.png)](https://postimg.cc/RqY9R760)
 
-[![look-app-kenai-2.png](https://i.postimg.cc/150yVF3s/look-app-kenai-2.png)](https://postimg.cc/CzK3Wz8Q)
+![look-app-kenai-2](https://user-images.githubusercontent.com/74999870/172408715-ea7f4050-dd2f-4f34-82fa-0d3b1a06a2c7.png)
 
 
 Modulo de Administrador 
-[![look-app-kenai-5.jpg](https://i.postimg.cc/Qd4GcJGG/look-app-kenai-5.jpg)](https://postimg.cc/XrCzbFYQ)
+![look-app-kenai-5](https://user-images.githubusercontent.com/74999870/172408472-1dd3b325-6e25-4e2b-bc1a-de319265ad37.jpg)
+
+.
+
+
 
 
