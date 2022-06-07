@@ -32,12 +32,14 @@ APK folder where the apk of the final application can be found
 
 ![look-app-kenai-2](https://user-images.githubusercontent.com/74999870/172408715-ea7f4050-dd2f-4f34-82fa-0d3b1a06a2c7.png)
 
+Implementación  de Machine Learning en la Aplicación  móvil
+
+Implementation of Machine Learning in the mobile application 
+![gif](https://user-images.githubusercontent.com/74999870/172411539-b3f215ef-a04a-4dce-a761-459ecec86c01.gif)
+
 
 Modulo de Administrador 
 ![look-app-kenai-5](https://user-images.githubusercontent.com/74999870/172408472-1dd3b325-6e25-4e2b-bc1a-de319265ad37.jpg)
-
-.
-
 
 
 
