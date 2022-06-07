@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/Opcionestxt"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/InicioCliente"
+                android:title="@string/inicioCliente"
+                android:icon="@drawable/casa"/>
+
+            <item
+                android:id="@+id/Escaner"
+                android:title="@string/escaner"
+                android:icon="@drawable/esca"/>
+
+           <item
+               android:id="@+id/infoUso"
+               android:title="¿Cómo usar el escaner? "
+               android:icon="@drawable/info_ico_foreground"/>
+
+            <item
+                android:id="@+id/sobreNosotros"
+                android:title="@string/sobreNosotros"
+                android:icon="@drawable/cohete"/>
+
+            <item
+                android:id="@+id/contacto"
+                android:title="@string/contac"
+                android:icon="@drawable/contac"/>
+
+            <item
+                android:id="@+id/infoApp"
+                android:title="@string/infoApp"
+                android:icon="@drawable/info_blan"/>
+
+
+            <item
+                android:id="@+id/Admin"
+                android:title="@string/acceder"
+                android:icon="@drawable/admini"/>
+
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

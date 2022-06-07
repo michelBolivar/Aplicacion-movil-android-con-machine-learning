@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    app:cardBackgroundColor="#00000000"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="0.2dp"
+    app:cardCornerRadius="16dp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00000000">
+
+        <!--        IMAGEN-->
+        <ImageView
+            android:id="@+id/ImagenOrinoquia"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#00000000"/>
+
+        <!--        NOMBRE PARAMO-->
+        <TextView
+            android:id="@+id/NombreImagenOrinoquia"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:text="@string/NombreImagenOrinoquia"
+            android:background="#7E9D91"
+            android:fontFamily="@font/old_growth"
+            android:textColor="#ffff"
+            android:gravity="center"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Wild Kenai</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Open navigation close</string>
+    <string name="app_princi">Principal</string>
+    <!--MENU ADMIN-->
+    <string name="InicioAdmin">Inicio </string>
+    <string name="PerfilAdmin">Perfil </string>
+    <string name="RegistrarAdmin">Registrar </string>
+    <string name="ListarAdmin">Listar Administrdores  </string>
+    <string name="SalirAdmin">Cerrar Sesion  </string>
+
+    <!--MENU Cliente -->
+    <string name="opcionestxt">Opciones</string>
+    <string name="inicioCliente">Inicio</string>
+    <string name="escaner">Escaner Animal</string>
+    <string name="sobreNosotros">Sobre Nosotros</string>
+
+    <string name="contac">Contáctanos</string>
+    <string name="compartir">Compartir </string>
+    <string name="infoApp">Información App</string>
+    <string name="acceder">Administrador</string>
+
+    <string name="acceAdmnin">Acceder</string>
+
+
+    <!--INICIO -->
+    <string name="text_inicio">    También encuentra la información de la especie desde su ecosistema </string>
+
+
+    <!--REGISTRO DE ADMINISTRADORES-->
+    <string name="RegistroTXT">Registro de Administradores </string>
+    <string name="correo">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="Nombres">Nombres </string>
+    <string name="apellidos">Apellidos</string>
+    <string name="rol">Rol</string>
+    <string name="FechaRegistro">Fecha Registro</string>
+    <string name="CodigoVerifica">Codigo verificacion</string>
+    <string name="RegistrarBoton">Registrar</string>
+
+    <!--    LOGIN DE ADMINISTRADORES-->
+    <string name="LoginTXT">Login de Administradores </string>
+    <string name="Ingresar">Ingresar</string>
+
+    <!--    MENU PARTE SUPERIOR DERECHA-->
+    <string name="Agregar">Agregar</string>
+    <string name="Vista">Vista</string>
+
+
+    <!--    CATEGORIAS-->
+    <string name="EligeEcosistema">Ecosistemas</string>
+    <string name="Paramo">Páramo</string>
+    <string name="Orinoco">Orinoco</string>
+
+
+    <!--    PARAMO AGREGAR-->
+    <string name="nombreTXTAnimal">Nombre del Animal</string>
+    <string name="NombreAnimal">Escriba nombre aqui</string>
+    <string name="DescripcionAnimal">Escriba descripcion</string>
+    <string name="PublicarAnimal">Publicar</string>
+    <string name="NombreImagenPelicula">---</string>
+
+
+    <!--    ORINOQUIA AGREGAR-->
+    <string name="nombreTXTAnimalO">Nombre del Animal</string>
+    <string name="NombreAnimalO">Escriba nombre aqui</string>
+    <string name="DescripcionAnimal0">Escriba descripcion</string>
+    <string name="PublicarAnimalO">Publicar</string>
+    <string name="NombreImagenOrinoquia">---</string>
+    <string name="AgregarOrinoco">Agregar</string>
+
+    <!--    PERFIL-->
+
+    <string name="PerfilAdministradortxt">Mi Perfil</string>
+    <string name="MiInformacciontxt">Mi información</string>
+    <string name="UIDPerfiltxt">uid:</string>
+    <string name="UIDPerfil">--</string>
+    <string name="NombrePerfilTxt">Nombres: </string>
+    <string name="NombrePerfil"> -- </string>
+    <string name="CorreoPerfilTxt">Correo: </string>
+    <string name="CorreoPerfil">-- </string>
+    <string name="ContraPerfilTxt">Contraseña: </string>
+    <string name="ContraPerfil">--</string>
+    <string name="RolPerfilTxt">Rol: </string>
+    <string name="RolPerfil">--</string>
+    <string name="ActualizarContra">Actualizar Contraseña</string>
+    <string name="ActualizarDatos">Actualizar Datos</string>
+
+    <!--    Cambiar contra-->
+    <string name="misCredencialesTxt">Mis Credenciales</string>
+    <string name="ContraActualtxt">Contraseña Actual:</string>
+    <string name="ContraActual">---:</string>
+    <string name="ActualContraET">Contraseña Actual</string>
+    <string name="NuevaContraEt">Nueva Contraseña</string>
+    <string name="CambiarContraBtn">Cambiar Contraseña</string>
+    <string name="IrInicioBtn">Cancelar</string>
+    <string name="NotaTxt">Si cambia la contraseña, se cerrará sesión automáticamente</string>
+
+
+    <!--    ADMINISTRADOR ITEM-->
+    <string name="NombresAdmin">Nombres: </string>
+    <string name="RolAdmin">Rol: </string>
+
+    <!--    DETALLE ADMINISTRADOR-->
+    <string name="DetalleTXT">Detalles Usuarios: </string>
+    <string name="NombreDetalleAdmin">Nombres</string>
+    <string name="RolDetalleAdmin">Rol</string>
+    <string name="CorreoDetalleAdmin">correo</string>
+
+
+    <string name="NombreAnimalC">---</string>
+
+
+    <!--    DETALLE ANIMAL -->
+    <string name="NombreAnimalTXT">Nombre del Animal</string>
+    <string name="NombreAnimalDetalle">---</string>
+    <string name="Descrip1TXT">Descripcion</string>
+    <string name="Descrip1">----</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

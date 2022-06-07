@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".FragmentosAdministrador.InicioAdmin">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <!--- FONDO BLANCO 1-->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="420dp"
+            android:layout_height="800dp"
+            android:background="@drawable/blanco_fondo_dos" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="120dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/logo_ban" />
+
+            <!--            TITULO ECOSISTEMAS-->
+            <!--  TITULO-->
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/old_growth"
+                android:text="ecosistemas"
+                android:textColor="#fff"
+                android:textSize="17dp" />
+
+            <!--Fila 1-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <!--PARAMO-->
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!--IMAGEN-->
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imagenParamoAdmin"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="#00000000"
+                        android:src="@drawable/paramo_2" />
+
+                    <!-- BOTON-->
+                    <Button
+                        android:id="@+id/paramo"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:background="#7E9D91"
+                        android:fontFamily="@font/caviar_bold"
+                        android:gravity="center"
+                        android:text="paramo"
+                        android:textColor="#ffff"
+                        android:textSize="15sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <!--ORNINOQUIA-->
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <!--IMAGEN-->
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgAdminOrino"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="#00000000"
+                        android:src="@drawable/orinoco_2" />
+
+                    <!-- BOTON-->
+                    <Button
+                        android:id="@+id/orinoquia"
+                        android:layout_width="100dp"
+                        android:layout_height="25dp"
+                        android:background="#7E9D91"
+                        android:fontFamily="@font/caviar_bold"
+                        android:gravity="center"
+                        android:text="orinoquia"
+                        android:textColor="#ffff"
+                        android:textSize="15sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!--Fila2-->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"></androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</ScrollView>

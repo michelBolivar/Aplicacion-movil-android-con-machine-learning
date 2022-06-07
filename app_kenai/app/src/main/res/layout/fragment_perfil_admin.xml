@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".FragmentosAdministrador.PerfilAdmin">
+
+
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="420dp"
+        android:layout_height="800dp"
+        android:background="@drawable/blanco_fondo_dos"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <!-- LOGO -->
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="130dp"
+            android:src="@drawable/logo_ban" />
+
+        <!--  TITULO-->
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/old_growth"
+            android:layout_gravity="center"
+            android:text="perfil"
+            android:textColor="#fff"
+            android:textSize="17dp" />
+
+        <!-- IMAGEN -->
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/FotoPefilImg"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/escani" />
+
+
+       <!--DATOS -->
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="25dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <!--        Nombres-->
+            <TextView
+                android:padding="5dp"
+                android:id="@+id/NombrePerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/NombrePerfil"
+                android:fontFamily="@font/caviar_bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20sp" />
+
+
+            <!-- ROL -->
+            <TextView
+                android:id="@+id/RolPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="@string/RolPerfil"
+                android:fontFamily="@font/caviar_bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20sp" />
+
+            <!--CORREO -->
+            <TextView
+                android:id="@+id/CorreoPerfil"
+                android:text="@string/CorreoPerfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/caviar_bold"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+       <!--ACTUALIZAR CONTRA -->
+        <Button
+            android:id="@+id/ActualizarContra"
+            android:text="@string/ActualizarContra"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/edit_ico"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:drawablePadding="15dp"
+            android:background="@drawable/boton_deco"
+            android:fontFamily="@font/caviar_bold"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"/>
+
+        <!--ACTUALIZAR DATOS-->
+        <Button
+            android:id="@+id/ActualizarDatos"
+            android:text="@string/ActualizarDatos"
+            android:layout_marginTop="10dp"
+            android:drawableStart="@drawable/edit_ico"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:drawablePadding="15dp"
+            android:background="@drawable/boton_deco"
+            android:fontFamily="@font/caviar_bold"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>

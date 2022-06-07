@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1024347479453",
+    "firebase_url": "https://wild-kenai-default-rtdb.firebaseio.com",
+    "project_id": "wild-kenai",
+    "storage_bucket": "wild-kenai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024347479453:android:a4a03f58274051cf4de374",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024347479453-md84na6fdrb01eqkt0om65k2hsidlduf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.test",
+            "certificate_hash": "418ac39b3c4e2850016703ed33a9204369e92238"
+          }
+        },
+        {
+          "client_id": "1024347479453-rcpclsgli9htp4qolb6ldo6ijlvc70qj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDcnAQwZJUQJ8DyYh58ERoahCNeaCdp98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024347479453-rcpclsgli9htp4qolb6ldo6ijlvc70qj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

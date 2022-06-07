@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".DetalleCliente.DetalleCliente">
+
+
+
+    <!--- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#00000000"/>
+
+
+
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="90dp"
+        android:layout_height="260dp"
+        android:background="@drawable/blanco_fondo_dos"/>
+
+    <!--- FONDO BLANCO 2-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="550dp"
+        android:layout_width="90dp"
+        android:layout_height="273dp"
+        android:background="@drawable/blanco_fondo_tres"/>
+
+    <!-- LOGO -->
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingTop="25dp"
+        android:src="@drawable/logo_ban" />
+
+
+    <!--    BOTON DE MAS-->
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <!-- BTON DE COMPRAR -->
+        <Button
+            android:id="@+id/compra"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/boton_compra"
+            android:drawableRight="@drawable/carrito_log"
+            android:paddingRight="15dp"
+            android:text="Ver Más "
+            android:textColor="#000000" />
+
+
+        <!--        NOMBRE DEL ANIMAL-->
+        <TextView
+            android:id="@+id/NombreAnimalDetalle"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/old_growth"
+            android:gravity="center"
+            android:text="@string/NombreAnimalDetalle"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <!---IMAGEN 1 -->
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/escla" />
+
+        <!--        DESCRIPCION1 CONTENIDO-->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="240dp"
+            android:layout_height="290dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/blanco_fondo">
+
+            <TextView
+                android:id="@+id/Descrip1"
+                android:layout_width="240dp"
+                android:layout_height="270dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/caviar_dreams"
+                android:text="@string/Descrip1"
+                android:textColor="#ffff"
+                android:textSize="22dp">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="18dp"
+        android:padding="4dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#34495E"
+        fab:menu_colorPressed="#34495E"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/compa_bla_ico"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_maxLines="1"
+        fab:menu_labels_position="right"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#fff"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowColor="#848484"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+
+        <!--        INSTAGRAM-->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabInstagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/insta_blan_cuat"
+            app:fab_colorNormal="#00000000"
+            app:fab_colorPressed="#00000000"
+            app:fab_label="Instagram"
+            app:fab_size="mini" />
+
+        <!--        FACEBOOK-->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/face_blan_six"
+            app:fab_colorNormal="#00000000"
+            app:fab_colorPressed="#00000000"
+            app:fab_label="Facebook"
+            app:fab_size="mini" />
+
+        <!-- YOUTUBE-->
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabPaginaWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/you_blan_cuat"
+            app:fab_colorNormal="#00000000"
+            app:fab_colorPressed="#00000000"
+            app:fab_label="Youtube"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <!--        IMAGEN1 DEL ANIMAL-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="600dp"
+        android:layout_height="600dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ImagenDetalle"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:src="@drawable/oso_def" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".FragmentosCliente.Contactenos">
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="420dp"
+        android:layout_height="800dp"
+        android:background="@drawable/blanco_fondo_dos"/>
+
+    <!-- LOGO -->
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="130dp"
+        android:paddingTop="25dp"
+        android:src="@drawable/logo_ban" />
+
+
+
+    <!--  TITULO-->
+    <TextView
+
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/old_growth"
+        android:gravity="center"
+        android:text="contactanos"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+    <!--  TITULO-->
+    <TextView
+
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/old_growth"
+        android:gravity="center"
+        android:text="contactanos"
+        android:textColor="#fff"
+        android:textSize="17dp" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="330dp"
+        android:layout_height="460dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <!--    CUADRO DE TEXTO-->
+        <TextView
+
+            android:layout_width="320dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/text_entrada"
+            android:fontFamily="@font/caviar_dreams"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:shadowRadius="10"
+            android:text=" Si quieres ser parte de nuestra familia no dudes en contactarnos "
+            android:textColor="#fff"
+            android:textSize="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/caviar_bold"
+            android:gravity="center"
+            android:text="Asunto"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <!-- ASUNTO -->
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/asunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/custom_ico"
+            android:fontFamily="@font/caviar_bold"
+
+            android:padding="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/caviar_bold"
+            android:gravity="center"
+            android:text="Mensaje"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/custom_ico"
+            android:fontFamily="@font/caviar_bold" />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <!-- BUTTON -->
+       <ImageButton
+           android:id="@+id/what"
+           android:layout_width="45dp"
+           android:layout_height="45dp"
+           android:src="@mipmap/compa_ver_cin"/>
+
+            <!-- BUTTON -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginLeft="150dp"
+                android:id="@+id/enviar_info"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/boton_deco"
+                android:fontFamily="@font/caviar_bold"
+                android:text="Enviar"
+                android:textColor="#fff"
+                android:textSize="17dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</FrameLayout>

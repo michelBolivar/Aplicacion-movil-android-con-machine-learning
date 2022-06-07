@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#00000000"
+    app:cardCornerRadius="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="#00000000">
+
+        <!--        IMAGEN-->
+        <ImageView
+            android:id="@+id/ImagenParamo"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00000000"/>
+
+        <!--        NOMBRE PARAMO-->
+        <TextView
+            android:id="@+id/NombreImagenPelicula"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:text="@string/NombreImagenPelicula"
+            android:background="#7E9D91"
+            android:fontFamily="@font/old_growth"
+            android:textColor="#ffff"
+            android:gravity="center"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Wild Kenai IA"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".infoUso"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleCliente.NoticiCliente"
+            android:exported="false" />
+        <activity
+            android:name=".DetalleCliente.DetalleCliente"
+            android:exported="false" />
+        <activity
+            android:name=".Catego.ControladorCD"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.OrinoquiaCli"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriasCliente.ParamoCli"
+            android:exported="false" />
+        <activity
+            android:name=".Detalle.Detalle_Administrador"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentosAdministrador.Cambio_contra"
+            android:exported="false" />
+        <activity
+            android:name=".Ecosistemas.OrinoquiaA.AgregarOrinoquia"
+            android:exported="true" />
+        <activity
+            android:name=".Ecosistemas.ParamoA.AgregarParamo"
+            android:exported="true" />
+        <activity
+            android:name=".Ecosistemas.OrinoquiaA.OrinoquiaA"
+            android:exported="true" />
+        <activity
+            android:name=".Ecosistemas.ParamoA.ParamoA"
+            android:exported="true" />
+        <activity
+            android:name=".InicioSesion"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivityCliente"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivityAdministrador"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetectorActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Principal"
+            android:exported="true" />
+        <activity android:name=".Carga">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

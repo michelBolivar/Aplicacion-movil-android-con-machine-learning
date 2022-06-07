@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".FragmentosCliente.Acceder">
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="470dp"
+        android:layout_height="800dp"
+        android:background="@drawable/blanco_fondo_dos"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- LOGO -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingTop="25dp"
+            android:src="@drawable/logo_ban" />
+
+        <TextView
+
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/old_growth"
+            android:text="     solo para       adminstradores"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+        <Button
+            android:id="@+id/AccederAdmi"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/boton_deco"
+            android:fontFamily="@font/caviar_bold"
+            android:text="Acceder"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="15dp"
+    android:background="#6B8D95"
+    android:elevation="2dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:background="#6B8D95"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <!--    FOTO DE PERFIL-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/PerfilAdmin"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+
+            android:src="@drawable/face_ico" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NombresAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/NombresAdmin"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/RolAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:textColor="@color/white"
+                android:text="@string/RolAdmin"
+                android:textSize="15sp"
+                android:textStyle="italic" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

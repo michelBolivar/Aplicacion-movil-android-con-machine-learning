@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".DetalleCliente.NoticiCliente">
+
+
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blanco_fondo_dos"/>
+
+    <!--- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarNotici"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#00000000"/>
+
+
+    <!-- LOGO -->
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:paddingTop="25dp"
+        android:src="@drawable/logo_ban" />
+
+    <!--NOMBRE-->
+    <TextView
+        android:id="@+id/nomNoti"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/old_growth"
+        android:gravity="center"
+        android:text="eventos"
+        android:textColor="@color/white" />
+
+
+
+  <androidx.appcompat.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <!-- IMAGEN -->
+      <ImageView
+          android:id="@+id/imgNotici"
+          android:layout_width="400dp"
+          android:layout_height="300dp"
+          android:layout_marginTop="200dp" />
+
+      <TextView
+          android:layout_marginTop="20dp"
+          android:id="@+id/desNoti"
+          android:layout_width="304dp"
+          android:layout_height="70dp"
+          android:layout_gravity="center"
+          android:autoSizeTextType="uniform"
+          android:background="@drawable/text_entrada"
+          android:fontFamily="@font/caviar_dreams"
+          android:gravity="center"
+          android:padding="10dp"
+          android:paddingTop="10dp"
+          android:paddingBottom="10dp"
+          android:shadowRadius="10"
+          android:text="l "
+          android:textColor="#fff"
+          android:textSize="8dp"/>
+      <!--DESCRIPCION -->
+
+
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+
+</RelativeLayout>

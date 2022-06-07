@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_degradado"
+    tools:context=".Detalle.Detalle_Administrador">
+
+
+    <!--- TOOLBAR -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPerfil"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#00000000"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+    <!--- FONDO BLANCO 1-->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blanco_fondo_dos" />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="45dp">
+
+        <!-- LOGO -->
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_ban" />
+
+        <!--  TITULO-->
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/old_growth"
+            android:gravity="center"
+            android:text="perfil "
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImagenDetalleAdmin"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/escani" />
+
+        <!-- DESCRIPCION -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+
+            <!-- NOMBRES -->
+            <TextView
+                android:id="@+id/NombreDetalleAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/old_growth"
+                android:text="@string/NombreDetalleAdmin"
+                android:textColor="#000000 "
+                android:textSize="15sp" />
+
+            <!-- ROL -->
+            <TextView
+                android:id="@+id/RolDetalleAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/old_growth"
+                android:text="@string/RolDetalleAdmin"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
